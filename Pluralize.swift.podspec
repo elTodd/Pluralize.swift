@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Pluralize.swift"
-  s.version          = "1.0"
+  s.version          = "1.0.1"
   s.summary          = "Great Swift String Pluralize Extension"
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pluralize/*'
+  s.source_files = ['Pluralize/Pluralize.h', 'Pluralize/Pluralize.swift']
   s.resource_bundles = {
     'Pluralize.swift' => ['Pod/Assets/*.png']
   }
